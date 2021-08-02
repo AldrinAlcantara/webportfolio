@@ -97,6 +97,16 @@ h4{
 	margin: .9rem 50rem;
 	padding: 1rem;
 }
+h5{
+	font-size: 20px;
+	color: white;
+	background-color: transparent;
+}
+p{
+	font-size: 20px;
+	color: white;
+	background-color: transparent;
+}
 .timeline{
 	margin-top: 2rem;
 	margin-left: 10%;
@@ -140,4 +150,4 @@ h4{
 
 }
 
-	
+
