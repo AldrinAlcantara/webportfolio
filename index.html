@@ -20,17 +20,16 @@
     <header class="header">
       <nav class ="navbar navbar-style">   
         <div class="d-inline-flex text-center">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Tools</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="#about" target="_self" onclick="document.location='#about'">Background</a></li>
+            <li><a href="#skillTitle" target="_self" onclick="document.location='#skillTitle'">Skills</a></li>
+            <li><a href="#Message" target="_self" onclick="document.location='#Contacts'">Message</a></li>
             <li class="dropdown">
               <a href="" class="dropdown-toggle" data-toggle="dropdown">Contacts</a>
-              <span class="caret"></span>
+              <span class="dropdown"></span>
               <ul class="dropdown-menu">
-                <li><a href="">Phone Number</a></li>
-                <li hover=""><a href="mailto:alcantaraaldrin913@gmail.com">Email</a></li>
+                <li><a href="#Number" target="_self" onclick="document.location='#Number'">Phone Number</a></li>
+                <li hover=""><a href="mailto:alcantaraaldrin913@gmail.com">Direct Email</a></li>
                 <li><a href=""></a></li>
-                
               </ul>
             </li>   
         </div>
@@ -75,7 +74,7 @@
     </div>
 
     <div class="skillgallery d-flex flex-wrap justify-content-center" >
-      <h4 id="skillTitle" class="skillTitle text-center" >Tools</h4>
+      <h4 id="skillTitle" class="skillTitle text-center" >Skills</h4>
       <img src="./assets/images/photo1.png" alt="">
       <img src="./assets/images/photo2.png" alt="">
       <img src="./assets/images/photo3.png" alt="">
@@ -93,20 +92,36 @@
 
     </div>
 
-    <div class="social">
-      <ul>
-        <a href="#">
-          <li>
-            
-          </li>
-        </a>
-      </ul>
+    <div class="Contacts p-2 col-md-12" id=Contacts>
 
+        <h3 class="text-center">Message</h3>
+        <form action="mailto:alcantaraaldrin913@gmail.com">
+          <div class="form-group">
+            <label for="Full Name">Full Name</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="Email">Email Address</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="Message">Message</label>
+            <textarea cols="30" rows="5" class="form-control"></textarea>
+          </div>
+          <button type="submit" class="btn btn-success btn-block">Send</button>
+        </form>
     </div>
 
-    <div class="footer text-center">
-      <p>Linkedin</p>
+    <div class="footer d-inline-flex footer text-center">
+      <li><img src="./assets/images/Lin.png">Linkedin</li>
+      <li><img src="./assets/images/Facebook.jpg"></a>Facebook</li>
+      <li><img src="./assets/images/Gmail.jpg"></a>Gmail</li>
+      <li><img src="./assets/images/Instagram.jpg"></a>Instagram</li>
     </div>
+    <div class="Number">
+      <p>09666297173</p>
+    </div>
+      
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 

@@ -35,6 +35,8 @@ li{
 	padding:0.9rem;
 }
 .skillgallery {
+	padding-top: 100px;
+	padding-bottom: 100px;
 	margin: 0 20px ;
 	background: url(../images/background2.jpg);
 	background-repeat: no-repeat;
@@ -46,8 +48,8 @@ li{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	width: 230px;
-	padding: 10px;
+	width: 150px;
+	padding: 5px;
 	filter: grayscale(30%);
 	transition: .1s;
 }
@@ -93,16 +95,49 @@ h4{
 	color: white;
 	background-color: transparent;
 	margin: .9rem 50rem;
-	padding: 5rem;
+	padding: 1rem;
 }
 .timeline{
-	margin-top: 1rem;
-	margin-left: 20%;
+	margin-top: 2rem;
+	margin-left: 10%;
 	margin-right: 10%;
-	margin-bottom: 1rem;
+	margin-bottom: 10rem;
 	font-size: 20px;
 	color: white;
 	background-color: transparent;
 	text-align: left;
 	list-style-type: none;
 }	
+.Contacts {
+	margin: 0 20px;
+	background: url(../images/background4.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-size: 10px;
+	font-weight: bold;
+	color: white;
+}
+.form-group {
+	padding: .1rem 5rem;
+}
+.btn{
+	text-align: center;
+}
+.footer {
+	text-align: center;
+	padding: 0.1 10rem;
+	width: 1px;
+	margin-left: 40px;
+	list-style-type: none;
+	position: center;
+}
+.Number	{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0 2rem;
+	text-align: left;
+
+}
+
+	
